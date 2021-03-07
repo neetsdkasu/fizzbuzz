@@ -6,7 +6,7 @@ Library of FizzBuzz
 ```go
 import (
 	"fmt"
-	* "github.com/neetsdkasu/fizzbuzz"
+	. "github.com/neetsdkasu/fizzbuzz"
 )
 
 func main() {
