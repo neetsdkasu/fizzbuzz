@@ -6,11 +6,11 @@ Library of FizzBuzz
 ```go
 import (
 	"fmt"
-	. "github.com/neetsdkasu/fizzbuzz"
+	. "github.com/neetsdkasu/fizzbuzz/v2"
 )
 
 func main() {
-	var i uint8
+	var i uint32
 	for i = 10; i <= 17; i++ {
 		fmt.Println(FizzBuzz(i))
 	}
