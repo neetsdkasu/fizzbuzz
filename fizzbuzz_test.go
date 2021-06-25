@@ -7,7 +7,7 @@ import (
 
 func TestFizzBuzz(t *testing.T) {
 	testdata := []struct {
-		Input  uint8
+		Input  uint32
 		Output string
 	}{
 		{0, "FizzBuzz"},
@@ -277,7 +277,7 @@ func TestFizzBuzz(t *testing.T) {
 }
 
 func ExampleFizzBuzz() {
-	var i uint8
+	var i uint32
 	for i = 10; i <= 17; i++ {
 		fmt.Println(FizzBuzz(i))
 	}
